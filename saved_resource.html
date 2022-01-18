@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://b0a8c3-167-71-170-171.dns.codedamn.app:1337/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codedamn Project</title>
+    <style>
+        body {
+            background-color: #fbfbfb;
+        }
+
+        .header {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #dfd7d7;
+            height: 60px
+        }
+
+        #search {
+            border-radius: 5px;
+            height: 20px;
+        }
+
+
+        .homeinsta,
+        .msginsta,
+        .addstoryinsta,
+        .profileIcon {
+            border-radius: 50%;
+            height: 25px;
+
+        }
+
+        .heartinsta {
+            border-radius: 50%;
+            height: 24px;
+
+        }
+
+        .exploreinsta {
+            border-radius: 50%;
+            height: 24px;
+
+        }
+
+        .div1,
+        .div2 {
+            margin-left: 3px;
+            margin-top: 15px;
+        }
+
+        .div3 {
+            display: flex;
+            margin-right: 3px;
+        }
+
+        .homeIcon,
+        .msgIcon,
+        .addStoryPost,
+        .explore,
+        .likes,
+        .profile {
+            width: fit-content;
+            height: 25px;
+            margin-top: 15px;
+            margin-right: 10px;
+            border-radius: 50%
+        }
+
+        .wrapmainandmsgbody {
+            display: flex;
+            margin: 30px;
+        }
+
+        .postsdiv {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .POST {
+            height: 450px;
+            width: 500px;
+            border: 1px solid #dfd7d7;
+            margin-left: 30px;
+            margin-bottom: 10px;
+        }
+
+        .storydiv {
+            display: flex;
+            justify-content: space-evenly;
+            border: 1px solid #dfd7d7;
+            background-color: #ffffff;
+            margin: 30px;
+            width: 500px;
+
+        }
+
+        .wrapmsg {
+            display: flex;
+
+        }
+
+        .follow {
+            margin-top: 22px;
+            margin-left: 60px;
+            color: #00b2f9;
+            font-weight: bold;
+        }
+
+        .msgperson {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .namebox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .pro1icon,
+        .pro2icon,
+        .pro3icon,
+        .pro4icon,
+        .pro5icon {
+            height: 55px;
+            border: 3px solid #ed4956;
+            border-radius: 50%;
+            margin: 3px;
+        }
+
+        .para {
+            margin-top: 35px;
+            color: #808080;
+            font-weight: bold;
+
+        }
+
+        .Names {
+            margin-left: 18px;
+            font-weight: bold;
+        }
+
+        .wrapmainandmsgbody {
+            display: flex;
+            justify-content: center;
+        }
+
+        .msgname {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .makeitflex {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .msgbox {
+            display: flex;
+        }
+
+        .postprofile {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #dfd7d7;
+            margin-left: 30px;
+            background-color: white;
+            width: 500px;
+        }
+
+        .divnames {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .option {
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #808080;
+            margin-right: 4px;
+        }
+
+        .xyz {
+            display: flex;
+        }
+
+        .spaceit {
+            display: flex;
+        }
+
+        .followbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="div1">
+            <div class="socialSiteName"><img src="./logo.png"></div>
+        </div>
+
+        <div class="div2">
+            <input type="text" name="search" placeholder="              Search" id="search">
+        </div>
+
+        <div class="div3">
+            <div class="homeIcon"><img src="./instahome.png" class="homeinsta" style="margin-left: 2px;"></div>
+            <div class="msgIcon"><img src="./instamsg.png" class="msginsta"></div>
+            <div class="addStoryPost"><img src="./instaaddpost.png" class="addstoryinsta"></div>
+            <div class="explore"><img src="./instaexplore.png" class="exploreinsta"></div>
+            <div class="likes"><img src="./instaheart.png" class="heartinsta"></div>
+            <div class="profile">
+                <img class="profileIcon" src="./profile.jpg">
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="wrapmainandmsgbody">
+        <div class="mainbody">
+            <div class="storydiv">
+                <div class="makeitflex"> <img src="./user-1.jpeg" class="pro1icon">
+                    <div class="Names">zack</div>
+                </div>
+
+                <div class="makeitflex"><img src="./user-2.jpeg" class="pro2icon">
+                    <div class="Names">cody</div>
+                </div>
+
+                <div class="makeitflex"> <img src="./user-3.jpeg" class="pro3icon">
+                    <div class="Names">monica</div>
+                </div>
+
+                <div class="makeitflex"> <img src="./user-4.jpeg" class="pro4icon">
+                    <div class="Names">joey</div>
+                </div>
+
+                <div class="makeitflex">
+                    <img src="./user-5.jpeg" class="pro5icon">
+                    <div class="Names">chandler</div>
+                </div>
+
+
+
+            </div>
+            <div class="postsdiv">
+
+                <div class="postprofile">
+
+                    <div class="xyz">
+                        <img src="./user-1.jpeg" class="pro1icon">
+                        <div class="divnames">zack</div>
+                    </div>
+                    <span class="option">...</span>
+                </div>
+                <img class="POST" src="./post-1.jpg">
+
+
+                <div class="postprofile">
+                    <div class="xyz">
+                        <img src="./user-2.jpeg" class="pro1icon">
+                        <div class="divnames">cody</div>
+                    </div>
+                    <span class="option">...</span>
+                </div>
+                <img class="POST" src="./post-2.jpg">
+
+
+                <div class="postprofile">
+                    <div class="xyz">
+                        <img src="./user-3.jpeg" class="pro1icon">
+                        <div class="divnames">monica</div>
+                    </div>
+                    <span class="option">...</span>
+                </div>
+                <img class="POST" src="./post-3.jpg">
+
+
+
+
+                <div class="postprofile">
+                    <div class="xyz">
+                        <img src="./user-4.jpeg" class="pro1icon">
+                        <div class="divnames">joey</div>
+                    </div>
+                    <span class="option">...</span>
+                </div>
+                <img class="POST" src="./post-4.jpg">
+
+
+
+                <div class="postprofile">
+                    <div class="xyz">
+                        <img src="./user-5.jpeg" class="pro1icon">
+                        <div class="divnames">chandler</div>
+                    </div>
+                    <span class="option">...</span>
+                </div>
+                <img class="POST" src="./post-5.jpg">
+            </div>
+        </div>
+        <div class="msgbody">
+            <p class="para">suggestion for you</p>
+            <div class="msgperson">
+
+                <div class="msgbox">
+
+                    <div>
+                        <div class="msgdivision">
+                            <div> <img src="./user-1.jpeg" class="pro1icon"></div>
+                            <div class="msgname">zack</div>
+                        </div>
+
+                        <div class="msgdivision">
+                            <div> <img src="./user-2.jpeg" class="pro2icon"></div>
+                            <div class="msgname">cody</div>
+                        </div>
+
+                        <div class="msgdivision">
+                            <div> <img src="./user-3.jpeg" class="pro3icon"></div>
+                            <div class="msgname">monica</div>
+                        </div>
+
+                        <div class="msgdivision">
+                            <div> <img src="./user-4.jpeg" class="pro4icon"></div>
+                            <div class="msgname">joey</div>
+                        </div>
+
+                        <div class="msgdivision">
+                            <div><img src="./user-5.jpeg" class="pro5icon"></div>
+                            <div class="msgname">chandler</div>
+                        </div>
+                    </div>
+                    <div class="followbox">
+                        <div class="follow">Follow</div>
+                        <div class="follow">Follow</div>
+                        <div class="follow">Follow</div>
+                        <div class="follow">Follow</div>
+                        <div class="follow">Follow</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- start writing your code -->
+
+
+</body>
+
+</html>
